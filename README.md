@@ -1,5 +1,25 @@
 
 
+## Task 3: Evaluation, Error Handling, and Demo
+
+The `task3_evaluation.py` script evaluates the sentiment analyzer, checks difficult review examples, handles empty input, and lets a user enter a review.
+
+### Evaluation result
+The analyzer correctly classified all 4 labelled sample reviews: **100% accuracy on this small sample**. This result does not guarantee the same accuracy on other reviews.
+
+### Demo example
+Input: `The product is good.`  
+Output: **Positive** — score: **0.7**
+
+### Error handling
+If the review is empty, the program displays: `Please enter a non-empty review.`
+
+### Failure cases
+- Sarcasm: `Great, it broke after one day.`
+- Mixed opinion: `The design is nice but the battery is awful.`
+
+The analyzer gives one overall label, so it may miss sarcasm or conflicting opinions in a review.
+
 ### Results from the demo
 
 Input: `I love this product. It works perfectly!`  
