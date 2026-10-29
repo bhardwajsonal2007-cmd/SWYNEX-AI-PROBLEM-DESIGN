@@ -1,4 +1,12 @@
-## Task 2: Model or API Integration
+
+
+### Results from the demo
+
+Input: `I love this product. It works perfectly!`  
+Output: **Positive** — polarity score: **0.75**
+
+Input: `This product is terrible and completely useless.`  
+Output: **Negative** — polarity score: **-0.75**## Task 2: Model or API Integration
 
 ### Prototype
 This prototype uses the TextBlob sentiment analysis library to classify short product reviews. It labels reviews as Positive, Negative, or Neutral based on the polarity score. No API key is required.
