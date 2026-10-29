@@ -1,4 +1,22 @@
-# AI Review Analyzer – Problem Design
+## Task 2: Model or API Integration
+
+### Prototype
+This prototype uses the TextBlob sentiment analysis library to classify short product reviews. It labels reviews as Positive, Negative, or Neutral based on the polarity score. No API key is required.
+
+### How to run
+1. Install Python 3.
+2. Install the library: `pip install -r requirements.txt`
+3. Run the prototype: `python task2_sentiment.py`
+
+### Example inputs and outputs
+- Input: `I love this product. It works perfectly!`
+  Output: `Positive`
+
+- Input: `This product is terrible and completely useless.`
+  Output: `Negative`
+
+### Limitations
+This is a simple sentiment-analysis prototype. It may misunderstand sarcasm, mixed opinions, or unusual wording. Check its predictions before using them to make important decisions.# AI Review Analyzer – Problem Design
 
 ## 1. Problem
 Customers may need to read many product reviews to understand overall feedback. This project proposes a simple AI tool that classifies a short review as **Positive** or **Negative**.
